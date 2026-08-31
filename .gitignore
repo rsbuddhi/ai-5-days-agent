@@ -216,3 +216,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Terraform state and secrets
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+*.tfvars.json
+*.auto.tfvars
+
+# Secrets, keys, and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+*.cert
+*.crt
+*.secret
+*service_account*.json
+*credentials*.json
+.env*
+!.env.example
+
+# Local ADK and agent caches
+.adk/
+.agents/
+session.db
+*.db
